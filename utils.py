@@ -14,7 +14,7 @@ from sklearn.metrics import classification_report, f1_score
 from sklearn.preprocessing import MultiLabelBinarizer
 import eli5
 
-IDIOMS_FILE = "./data/idioms.txt"
+IDIOMS_FILE = "./data/idioms"
 
 if os.path.exists("./data/unigrams_freq.pkl"):
     with open("./data/unigrams_freq.pkl", "rb") as f:
